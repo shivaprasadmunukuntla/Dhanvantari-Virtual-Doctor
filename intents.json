@@ -1,0 +1,72 @@
+{"intents": [
+        {"tag": "heart attack",
+         "patterns": ["chest", "heart attack", "heartbeat ", "coronary"],
+         "responses": ["Kindly mention the clear details of the problem"],
+         "context_set": ""
+        },
+        {"tag": "heavy pain unable to take breathe",
+         "patterns": ["heavy pain", "unable to breathe"],
+         "responses": ["ok try to breathe out forcibly.and do whatever I tell you take the help of any person. Keep Nitroglycerine pill under your tongue "],
+         "context_set": ""
+        },
+        {"tag": " I cannot bear this pain",
+         "patterns": ["cannot bear","no relief"],
+         "responses": ["Ask the person near by you to push hardly with his both hands on your chest..."],
+         "context_set": ""
+        },
+        {"tag": "Doctor it does not work out",
+         "patterns": ["Emergency", "Ambulance"],
+         "responses": ["Ambulance is on the way it may reach you anytime. Don't worry you will be all right"],
+         "context_set": ""
+        },
+        {"tag": "Fever",
+         "patterns": ["fever"],
+         "responses": ["Kindly mention the reading of the thermometer in degree celsius"],
+         "context_set": ""
+        },
+        {"tag": "40",
+         "patterns": ["39", "41", "38","25","26","27","28","29","30","31","32","33","34","35","36","37","40"],
+         "responses": ["Kindly mention if you have cold, cough or headache ."],
+         "context_set": ""
+        },
+        {"tag": "Cold",
+         "patterns": ["cold"],
+         "responses": ["I'm prescribing this medicine kindly use this : Dolo 300mg."],
+         "context_set": ""
+        },
+        {"tag": "headache",
+         "patterns": ["migraine","headache"],
+         "responses": ["I'm prescribing this medicine kindly use this: Dolo 300mg."],
+         "context_set": ""
+        },
+        {"tag": "cough",
+         "patterns": ["cough"],
+         "responses": ["Im prescribing this medicine kindly use this : Dolo 300mg and Benadryl Syrup "],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks","Thanks you doctor","ok", "That's helpful"],
+         "responses": ["Happy to help", "My pleasure"],
+         "context_set": ""
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi","Hi doctor", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting what happened", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard", "We accept most major credit cards"]
+        },
+        {"tag": "dizziness and fainting",
+         "patterns": ["Increased thirst","vision problem"],
+         "responses": ["Kindly mention readings of Sphygmomanometer"],
+         "context_set": ""
+        },
+        {"tag": "150",
+         "patterns": ["170", "148", "160"],
+         "responses": ["Im prescribing this medicine kindly use this: Amlodipine"],
+         "context_set": ""
+        }
+   ]
+}
